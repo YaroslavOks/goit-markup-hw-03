@@ -1,0 +1,183 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* цвет белый #FFFFFF */
+/* цвет акцент #2196F3 */
+/* цвет футер емейл и тел  rgba(255, 255, 255, 0.6)*/
+:root {
+	--tittle-text-color: #212121;
+	--secondary-text-color: #757575;
+	--white-color: #ffffff;
+	--acent-text-color: #2196f3;
+	--footer-text-color: rgba(255, 255, 255, 0.6);
+	--hero-footer-bcg-color: #2f303a;
+	--buton-bcg-color: #f5f4fa;
+}
+/* Главная страница */
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+	background-color: var(--white-color);
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+	font-style: normal;
+}
+/* Хедер главной страници */
+
+.logo.primary {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--tittle-text-color);
+}
+.logo-part {
+	color: var(--acent-text-color);
+}
+
+.nav-list-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--tittle-text-color);
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+	color: var(--acent-text-color);
+}
+.nav-list .current {
+	color: var(--acent-text-color);
+}
+.contacts-link {
+	font-weight: 500;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--secondary-text-color);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--acent-text-color);
+}
+/* Hero */
+.hero {
+	background-color: var(--hero-footer-bcg-color);
+}
+.hero-header {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--white-color);
+}
+.hero-btn {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: var(--white-color);
+	background-color: var(--acent-text-color);
+	cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: transparent;
+	border: 1px solid var(--acent-text-color);
+}
+/* Скеция 2 Особенности студии */
+.peculiarities-list-tittle {
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	color: var(--tittle-text-color);
+}
+.peculiarities-list-text {
+	line-height: 1.71;
+}
+/* Секция 3 чем занимается студия */
+.about-work-tittle {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	color: var(--tittle-text-color);
+}
+/* Секция 4 команда */
+.command-tittle {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	color: var(--tittle-text-color);
+}
+.participant-name {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	color: var(--tittle-text-color);
+}
+.participant-activity {
+	font-size: 16px;
+	line-height: 1.19;
+}
+/* Футер */
+.footer {
+	background-color: var(--hero-footer-bcg-color);
+}
+.logo.secondary {
+	font-family: "Raleway";
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: var(--white-color);
+}
+.footer-contact-adress {
+	line-height: 1.71;
+	color: var(--white-color);
+}
+.footer-contact-adress:hover,
+.footer-contact-adress:focus {
+	color: var(--acent-text-color);
+}
+.footer-contact-link {
+	line-height: 1.71;
+	color: var(--footer-text-color);
+}
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+	color: var(--acent-text-color);
+}
+
+/*  =========PORTFOLIO======= */
+
+.filter-list-btn {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	color: var(--tittle-text-color);
+	background-color: var(--buton-bcg-color);
+	cursor: pointer;
+}
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+	color: var(--white-color);
+	background-color: var(--acent-text-color);
+}
+.project-list-ttile {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--tittle-text-color);
+}
+.project-list-description {
+	font-size: 16px;
+	line-height: 1.88;
+}
