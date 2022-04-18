@@ -19,9 +19,20 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--secondary-text-color);
 	background-color: var(--white-color);
+	/* width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px; */
+}
+.container{
+	width: 1200px;
+	padding: 0px 15px;
+	margin: 0 auto;
+	outline: solid tomato;
 }
 .list {
 	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 .link {
 	text-decoration: none;
@@ -66,12 +77,17 @@ body {
 /* Hero */
 .hero {
 	background-color: var(--hero-footer-bcg-color);
+	text-align: center;
+	margin-bottom: 94px;
 }
 .hero-header {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--white-color);
@@ -84,24 +100,38 @@ body {
 	color: var(--white-color);
 	background-color: var(--acent-text-color);
 	cursor: pointer;
+	border-radius: 4px;
+	padding: 10px 32px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: transparent;
-	border: 1px solid var(--acent-text-color);
+	/* border: 1px solid var(--acent-text-color); */
 }
 /* Скеция 2 Особенности студии */
+.peculiarities-list{
+	margin-bottom: 94px;
+}
 .peculiarities-list-tittle {
+	margin-top: 0;
+	margin-bottom: 10px;
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--tittle-text-color);
 }
 .peculiarities-list-text {
+	margin-top: 0;
+	margin-bottom: 0;
 	line-height: 1.71;
 }
 /* Секция 3 чем занимается студия */
+.about-work-list{
+	margin-bottom: 94px;
+}
 .about-work-tittle {
+	margin-top: 0;
+	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -109,25 +139,40 @@ body {
 	color: var(--tittle-text-color);
 }
 /* Секция 4 команда */
+.command{
+	padding-top: 94px;
+	padding-bottom: 94px;
+}
 .command-tittle {
+	margin-top: 0;
+	margin-bottom: 50px;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 	color: var(--tittle-text-color);
 }
+.participant-foto{
+	margin-bottom: 30px;
+}
 .participant-name {
+	margin-top: 0;
+	margin-bottom: 10px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
 	color: var(--tittle-text-color);
 }
 .participant-activity {
+	margin-top: 0;
+	margin-bottom: 30px;
 	font-size: 16px;
 	line-height: 1.19;
 }
 /* Футер */
 .footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: var(--hero-footer-bcg-color);
 }
 .logo.secondary {
@@ -155,20 +200,32 @@ body {
 }
 
 /*  =========PORTFOLIO======= */
+.container.portfolio{
+	margin-bottom: 94px;
+}
+.filter-list{
+	margin-bottom: 34px;
+}
 
 .filter-list-btn {
+	padding: 6px 22px;
+	cursor: pointer;
+	border-radius: 4px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
 	color: var(--tittle-text-color);
 	background-color: var(--buton-bcg-color);
-	cursor: pointer;
+	text-align:center;
 }
 .filter-list-btn:hover,
 .filter-list-btn:focus {
 	color: var(--white-color);
 	background-color: var(--acent-text-color);
+}
+.project-list-picture{
+	margin-bottom: 20px;
 }
 .project-list-ttile {
 	font-weight: 700;
