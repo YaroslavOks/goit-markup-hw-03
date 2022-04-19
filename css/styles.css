@@ -237,6 +237,7 @@ margin-left: 30px;
 .logo.secondary {
 	display: block;
 	padding-bottom: 20px;
+
 	font-family: "Raleway";
 	font-weight: 700;
 	font-size: 26px;
@@ -310,6 +311,7 @@ margin-left: 30px;
 	width: 370px;
 	margin-right: 30px;
 	margin-bottom: 30px;
+
 	background-color: var(--white-color);
 	border: 1px solid #eeeeee;
 	/* width: calc((100%-90px) / 3); */
