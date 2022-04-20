@@ -195,13 +195,18 @@ img {
 }
 .command-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 .command-list-participant {
+  margin-left: 30px;
+
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.command-list-participant:first-child {
+  margin-left: 0;
 }
 .command-tittle {
   margin-top: 0;
