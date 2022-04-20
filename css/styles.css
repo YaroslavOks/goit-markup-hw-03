@@ -35,8 +35,16 @@ body {
   text-decoration: none;
   font-style: normal;
 }
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /* Хедер главной страници */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
 .main-header {
   display: flex;
   align-items: center;
@@ -83,6 +91,8 @@ body {
   margin-left: 50px;
 }
 .contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -93,13 +103,10 @@ body {
   color: var(--acent-text-color);
 }
 /* Hero */
-.hero > .container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  text-align: center;
-}
-.hero {
-  margin-bottom: 94px;
+
   background-color: var(--hero-footer-bcg-color);
   text-align: center;
 }
@@ -137,7 +144,8 @@ body {
 /* Скеция 2 Особенности студии */
 .peculiarities-list {
   display: flex;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .peculiarities-item + .peculiarities-item {
   margin-left: 30px;
@@ -164,7 +172,7 @@ body {
 /* Секция 3 чем занимается студия */
 .about-work-list {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .about-work-list-item + .about-work-list-item {
   margin-left: 30px;
@@ -189,10 +197,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/* .command-list-participant + .command-list-participant{
-margin-left: 30px;
-} */
 .command-list-participant {
+  background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -207,8 +213,10 @@ margin-left: 30px;
   text-align: center;
   color: var(--tittle-text-color);
 }
-.participant-foto {
-  margin-bottom: 30px;
+
+.paticipant-name-activity {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .participant-name {
   margin-top: 0;
@@ -222,7 +230,7 @@ margin-left: 30px;
 }
 .participant-activity {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 
   font-size: 16px;
   line-height: 1.19;
@@ -230,14 +238,14 @@ margin-left: 30px;
 }
 /* Футер */
 .footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   background-color: var(--hero-footer-bcg-color);
 }
 .logo.secondary {
   display: block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-family: 'Raleway';
   font-weight: 700;
@@ -269,14 +277,15 @@ margin-left: 30px;
 }
 
 /*  =========PORTFOLIO======= */
-.header .portfolio {
-  margin-bottom: 94px;
+.portfolio-main-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .filter-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list-item + .filter-list-item {
   margin-left: 8px;
@@ -306,7 +315,10 @@ margin-left: 30px;
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
+}
+.project-list-tittle-description {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .projects-list-item {
   width: 370px;
@@ -315,7 +327,6 @@ margin-left: 30px;
 
   background-color: var(--white-color);
   border-bottom: 1px solid #eeeeee;
-  /* width: calc((100%-90px) / 3); */
 }
 .projects-list-item:hover,
 .projects-list-item:focus {
@@ -326,9 +337,6 @@ margin-left: 30px;
 }
 .projects-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
-}
-.projects-list-item .projects-list-picture {
-  margin-bottom: 20px;
 }
 .projects-list-ttile {
   margin-top: 0;
@@ -341,7 +349,7 @@ margin-left: 30px;
 }
 .projects-list-description {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.88;
   color: var(--secondary-text-color);
