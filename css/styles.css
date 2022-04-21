@@ -142,10 +142,12 @@ img {
   /* border: 1px solid var(--acent-text-color); */
 }
 /* Скеция 2 Особенности студии */
-.peculiarities-list {
-  display: flex;
+.peculiarities {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.peculiarities-list {
+  display: flex;
 }
 .peculiarities-item + .peculiarities-item {
   margin-left: 30px;
@@ -170,9 +172,11 @@ img {
   line-height: 1.71;
 }
 /* Секция 3 чем занимается студия */
+.about-work {
+  padding-bottom: 94px;
+}
 .about-work-list {
   display: flex;
-  padding-bottom: 94px;
 }
 .about-work-list-item + .about-work-list-item {
   margin-left: 30px;
@@ -322,8 +326,7 @@ img {
   flex-wrap: wrap;
 }
 .project-list-tittle-description {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 }
 .projects-list-item {
   width: calc((100% - 60px) / 3);
